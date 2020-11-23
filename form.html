@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <h2>Registration Form</h2>
+</head>
+<body>
+    <form id="loginform" name="rform" onsubmit="return validateForm()">
+        <input type="text" name="fullname" placeholder="Fullname" class="login-field">
+        <input type="text" name="username" placeholder="Username" class="login-field">
+        <input type="text" name="pass" placeholder="Password" class="login-field">
+        <input type="submit" value="register" class="login-submit"> 
+    </form>
+    <style>
+ 
+    </style>
+    <script>
+        function validateForm(){
+            let fname = document.regform.fname.value;
+            let username = document.regform.username.value;
+            if (fname==null || fname==""){  
+            alert("FullName can't be blank");
+            return false;
+            }else if (username==null || username==""){  
+            alert("UserName can't be blank");
+  return false;  
+}
+        }
+    </script>
+</body>
+</html>

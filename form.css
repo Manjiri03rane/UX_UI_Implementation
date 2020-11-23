@@ -1,0 +1,29 @@
+               
+html {
+    height: 50%;
+  }
+  body {
+    height: 100%;
+    font-family: Arial;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: #241480;
+    
+  }
+   
+  .login-field {
+    width:20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+  }
+  .login-submit {
+    background-color: #3eb396;
+    color: white;
+    padding: 6px 6px;
+    margin: 8px 0;
+    width: 20%;
+    align-content: center;
+
+  }
